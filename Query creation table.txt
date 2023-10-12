@@ -1,0 +1,12 @@
+CREATE TABLE Alexandria_weather(
+	City varchar(20),
+	Country varchar(30),
+	Description varchar(40),
+	Temp_C FLOAT,
+	Feeling_Temp_C FLOAT,
+	MAX_Temp_C FLOAT,
+	MIN_Temp_C FLOAT,
+	Humidity FLOAT,
+	Speed_of_Wind FLOAT,
+	Direction_of_Wind FLOAT,
+	Time_of_Record TIMESTAMP
